@@ -1,0 +1,29 @@
+header {
+    background: white;
+    position: relative;
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+}
+header .logo {
+    position: absolute;
+    background: url("../images/logo.png") no-repeat;
+    left: 20px;
+    height: 100%;
+    width: 50%;
+}
+
+.available {
+    background-color: ##ff545f !important;
+}
+
+#api_status {
+    position: absolute;
+    vertical-align: center;
+    background-color: #CCCCCC;
+    border-radius: 50%;
+    width: 40%;
+    height: 40%;
+    right: 30px;
+    top: 15px;
+}
